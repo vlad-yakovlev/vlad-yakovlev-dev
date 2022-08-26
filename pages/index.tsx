@@ -12,9 +12,9 @@ const Home: NextPage = () => {
       <div className="flex flex-col items-center justify-between min-h-full bg-zinc-300">
         <div className="h-16" />
         <div className="flex items-center flex-col sm:flex-row gap-8 px-8 py-14 border-b-8 border-b-green-700 bg-white shadow-xl">
-          <div className="flex-none">
+          <div className="flex-none flex">
             <Image
-              className="block rounded-full"
+              className="rounded-full"
               src="/photo.jpg"
               alt="Vladislav's photo"
               width="100"
