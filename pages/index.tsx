@@ -21,7 +21,7 @@ const Home: NextPage = () => {
               height="100"
             />
           </div>
-          <div className="text-center sm:text-right space-y-1">
+          <div className="text-center sm:text-right space-y-2">
             <div>Vladislav Yakovlev</div>
             <div>Senior Frontend Developer</div>
             <div className="inline-flex space-x-2 justify-end">
