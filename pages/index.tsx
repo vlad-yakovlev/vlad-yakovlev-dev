@@ -9,7 +9,10 @@ const Home: NextPage = () => {
         <title>Vladislav Yakovlev</title>
       </Head>
 
-      <div className="flex flex-col items-center justify-between min-h-screen bg-zinc-300">
+      <div
+        className="flex flex-col items-center justify-between min-h-screen bg-zinc-300"
+        style={{ minHeight: '-webkit-fill-available' }}
+      >
         <div className="h-10" />
         <div className="flex items-center flex-col sm:flex-row gap-8 px-8 py-14 border-b-8 border-b-green-700 bg-white shadow-xl">
           <div className="flex-none">
