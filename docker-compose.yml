@@ -5,7 +5,7 @@ networks:
     name: vlad-yakovlev
 
 services:
-  double:
+  vlad-yakovlev-dev:
     build: .
     networks:
       - vlad-yakovlev
