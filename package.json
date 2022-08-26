@@ -8,8 +8,8 @@
     "start": "next start",
     "compile": "tsc --noEmit",
     "lint": "next lint",
-    "prettier": "prettier --write .",
-    "prettier:ci": "prettier --check .",
+    "prettier": "prettier --write '**/*.(ts|tsx|js|md|json)'",
+    "prettier:ci": "prettier --check '**/*.(ts|tsx|js|md|json)'",
     "prepare": "husky install"
   },
   "dependencies": {
