@@ -9,7 +9,8 @@ const Home: NextPage = () => {
         <title>Vladislav Yakovlev</title>
       </Head>
 
-      <div className="flex min-h-screen items-center justify-center bg-zinc-300">
+      <div className="flex flex-col items-center justify-between min-h-screen bg-zinc-300">
+        <div className="h-10" />
         <div className="flex items-center flex-col sm:flex-row gap-8 px-8 py-14 border-b-8 border-b-green-700 bg-white shadow-xl">
           <div className="flex-none">
             <Image
@@ -36,6 +37,11 @@ const Home: NextPage = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="h-10">
+          <a className="underline text-zinc-700" href="/double">
+            Play Double
+          </a>
         </div>
       </div>
     </>
