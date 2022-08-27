@@ -24,12 +24,7 @@ export const MyDocument: FC<DocumentProps> = () => {
         />
         <link rel="manifest" href="/site.webmanifest" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
       <body className="bg-zinc-300">
         <Main />
