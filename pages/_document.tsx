@@ -31,7 +31,7 @@ export const MyDocument: FC<DocumentProps> = () => {
           rel="stylesheet"
         />
       </Head>
-      <body className="font-['DM_Sans']">
+      <body className="font-['DM_Sans'] bg-zinc-300">
         <Main />
         <NextScript />
       </body>
