@@ -10,7 +10,9 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="flex flex-col items-center justify-between min-h-full">
-        <div className="h-16" />
+        <div className="flex items-center justify-center w-full h-16 gap-x-2 text-l uppercase">
+          🇦🇲 Stand with Armenia 🇦🇲
+        </div>
         <div className="flex items-center flex-col sm:flex-row gap-x-10 gap-y-12 px-10 py-16 border-b-8 border-b-green-700 bg-white shadow-xl">
           <div className="flex-none flex">
             <Image
