@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Photo from '../assets/photo.jpg'
 
 const Home: NextPage = () => {
   return (
@@ -15,7 +16,7 @@ const Home: NextPage = () => {
           <div className="flex-none flex">
             <Image
               className="rounded-full"
-              src="/photo.jpg"
+              src={Photo}
               alt="Vladislav's photo"
               width="120"
               height="120"

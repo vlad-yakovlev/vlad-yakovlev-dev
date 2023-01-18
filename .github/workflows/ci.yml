@@ -69,20 +69,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-  # deploy:
-  #   needs: checks
-  #   if: github.repository == 'vlad-yakovlev/vlad-yakovlev-dev' && github.ref == 'refs/heads/main'
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Deploy to Digital Ocean droplet via SSH action
-  #       uses: appleboy/ssh-action@master
-  #       with:
-  #         host: ${{ secrets.HOST }}
-  #         username: ${{ secrets.USERNAME }}
-  #         key: ${{ secrets.KEY }}
-  #         script_stop: true
-  #         script: |
-  #           cd Projects/vlad-yakovlev-dev
-  #           git pull
-  #           docker compose up -d --build
