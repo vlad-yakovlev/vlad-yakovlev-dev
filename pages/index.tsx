@@ -40,14 +40,20 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="h-16" />
-        {/* <div className="flex items-center justify-center h-16 gap-6">
-          <a className="underline text-zinc-700" href="/double">
+        <div className="flex items-center justify-center h-16 gap-6">
+          <a
+            className="underline text-zinc-700"
+            href="https://double.vlad-yakovlev.dev/"
+          >
             Play Double
           </a>
-          <a className="underline text-zinc-700" href="/wave-simulation">
+          <a
+            className="underline text-zinc-700"
+            href="https://wave-simulation.vlad-yakovlev.dev/"
+          >
             Wave simulation
           </a>
-        </div> */}
+        </div>
       </div>
     </>
   )
