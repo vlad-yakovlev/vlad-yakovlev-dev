@@ -39,7 +39,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="h-16" />
         <div className="flex items-center justify-center h-16 gap-6">
           <a
             className="underline text-zinc-700"
