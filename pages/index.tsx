@@ -56,7 +56,7 @@ const Home: NextPage = () => {
             className="underline text-zinc-700"
             href="https://wave-simulation.vlad-yakovlev.dev/"
           >
-            Wave Simulation
+            Simulate Waves
           </a>
         </div>
       </div>
