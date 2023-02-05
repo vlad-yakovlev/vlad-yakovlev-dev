@@ -1,3 +1,3 @@
-# Vladislav Yakovlev website
+# My website
 
 https://vlad-yakovlev.dev
