@@ -42,6 +42,12 @@ const Home: NextPage = () => {
         <div className="flex items-center justify-center h-16 gap-6">
           <a
             className="underline text-zinc-700"
+            href="https://expense.vlad-yakovlev.dev/"
+          >
+            Count Expenses
+          </a>
+          <a
+            className="underline text-zinc-700"
             href="https://double.vlad-yakovlev.dev/"
           >
             Play Double
@@ -50,7 +56,7 @@ const Home: NextPage = () => {
             className="underline text-zinc-700"
             href="https://wave-simulation.vlad-yakovlev.dev/"
           >
-            Wave simulation
+            Wave Simulation
           </a>
         </div>
       </div>
