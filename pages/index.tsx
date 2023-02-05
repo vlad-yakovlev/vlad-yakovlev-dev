@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center h-16 gap-6">
+        <div className="flex max-sm:flex-col items-center justify-center gap-5 py-5">
           <a
             className="underline text-zinc-700"
             href="https://expense.vlad-yakovlev.dev/"
