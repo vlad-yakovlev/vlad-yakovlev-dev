@@ -39,12 +39,12 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex max-sm:flex-col items-center justify-center gap-5 py-5">
+        <div className="flex max-sm:flex-col items-center justify-center gap-5 py-3 sm:py-5">
           <a
             className="underline text-zinc-700"
             href="https://expense.vlad-yakovlev.dev/"
           >
-            Count Expenses
+            Track Expenses
           </a>
           <a
             className="underline text-zinc-700"
