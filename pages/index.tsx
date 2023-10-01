@@ -48,12 +48,6 @@ const Home: NextPage = () => {
           </a>
           <a
             className="underline text-zinc-700"
-            href="https://double.vlad-yakovlev.dev/"
-          >
-            Play Double
-          </a>
-          <a
-            className="underline text-zinc-700"
             href="https://wave-simulation.vlad-yakovlev.dev/"
           >
             Simulate Waves
