@@ -12,7 +12,16 @@ export default function Document() {
           href="/icons/favicon.png"
         />
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#d4d4d8" />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: light)"
+          content="#d4d4d8"
+        />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: dark)"
+          content="#18181b"
+        />
         <meta name="description" content="Vladislav Yakovlev's website" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
@@ -26,7 +35,7 @@ export default function Document() {
           href="/icons/apple-touch-icon.png"
         />
       </Head>
-      <body className="touch-pan-y bg-zinc-300 [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]">
+      <body className="touch-pan-y bg-zinc-300 [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] dark:bg-zinc-900 dark:text-zinc-100">
         <Main />
         <NextScript />
       </body>

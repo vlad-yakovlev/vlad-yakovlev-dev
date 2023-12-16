@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <div className="flex min-h-screen flex-col items-center justify-between pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] pt-[env(safe-area-inset-top)]">
         <div className="h-14" />
-        <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl sm:flex-row">
+        <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl dark:bg-zinc-800 sm:flex-row">
           <div className="flex flex-none">
             <NextImage
               className="rounded-full"
@@ -41,13 +41,13 @@ const Home: NextPage = () => {
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 p-4">
           <a
-            className="flex-none text-zinc-700 underline"
+            className="flex-none text-zinc-700 underline dark:text-zinc-400"
             href="https://expense.vlad-yakovlev.dev/"
           >
             Track Expenses
           </a>
           <a
-            className="flex-none text-zinc-700 underline"
+            className="flex-none text-zinc-700 underline dark:text-zinc-400"
             href="https://wave-simulation.vlad-yakovlev.dev/"
           >
             Simulate Waves

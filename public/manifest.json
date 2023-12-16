@@ -3,8 +3,6 @@
   "short_name": "Vladislav Yakovlev",
   "description": "Vladislav Yakovlev's website",
   "lang": "en",
-  "theme_color": "#d4d4d8",
-  "background_color": "#d4d4d8",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
