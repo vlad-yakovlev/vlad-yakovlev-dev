@@ -2,7 +2,7 @@ import { Head, Html, Main, NextScript } from 'next/document.js'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
         <link
@@ -23,11 +23,6 @@ export default function Document() {
           content="#18181b"
         />
         <meta name="description" content="Vladislav Yakovlev's website" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta
-          name="apple-mobile-web-app-status-bar-style"
-          content="black-translucent"
-        />
         <link rel="mask-icon" href="/icons/mask-icon.svg" color="#16a34a" />
         <link
           rel="apple-touch-icon"
