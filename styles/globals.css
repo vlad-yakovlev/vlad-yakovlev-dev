@@ -4,6 +4,6 @@
 
 html,
 body,
-__next {
+#__next {
   height: 100%;
 }
