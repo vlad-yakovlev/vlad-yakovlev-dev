@@ -2,8 +2,17 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    extensionAlias: {
+      '.js': ['.ts', '.js'],
+      '.jsx': ['.tsx', '.jsx'],
+    },
+  },
   reactStrictMode: true,
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
 }
 
-module.exports = nextConfig
+export default nextConfig

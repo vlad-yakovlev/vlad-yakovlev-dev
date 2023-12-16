@@ -1,31 +1,31 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Photo from '../assets/photo.jpg'
+import photoAsset from '../assets/photo.jpg'
+import { NextHead } from '../components/next/Head.js'
+import { NextImage } from '../components/next/Image.js'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Head>
+      <NextHead>
         <title>Vladislav Yakovlev</title>
-      </Head>
+      </NextHead>
 
-      <div className="flex flex-col items-center justify-between min-h-full">
-        <div className="h-16" />
-        <div className="flex items-center flex-col sm:flex-row gap-x-10 gap-y-12 px-10 py-16 border-b-8 border-b-green-700 bg-white shadow-xl">
-          <div className="flex-none flex">
-            <Image
+      <div className="flex min-h-screen flex-col items-center justify-between pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] pt-[env(safe-area-inset-top)]">
+        <div className="h-14" />
+        <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl sm:flex-row">
+          <div className="flex flex-none">
+            <NextImage
               className="rounded-full"
-              src={Photo}
+              src={photoAsset}
               alt="Vladislav's photo"
               width="120"
               height="120"
             />
           </div>
-          <div className="text-center sm:text-right space-y-2">
+          <div className="space-y-2 text-center sm:text-right">
             <div>Vladislav Yakovlev</div>
             <div>Senior Frontend Developer</div>
-            <div className="inline-flex space-x-2 justify-end">
+            <div className="inline-flex justify-end space-x-2">
               <a className="underline" href="https://github.com/vlad-yakovlev">
                 GitHub
               </a>
@@ -39,15 +39,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex max-sm:flex-col items-center justify-center gap-5 py-3 sm:py-5">
+        <div className="flex flex-wrap items-center justify-center gap-4 p-4">
           <a
-            className="underline text-zinc-700"
+            className="flex-none text-zinc-700 underline"
             href="https://expense.vlad-yakovlev.dev/"
           >
             Track Expenses
           </a>
           <a
-            className="underline text-zinc-700"
+            className="flex-none text-zinc-700 underline"
             href="https://wave-simulation.vlad-yakovlev.dev/"
           >
             Simulate Waves

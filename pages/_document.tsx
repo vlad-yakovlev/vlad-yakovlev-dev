@@ -1,35 +1,35 @@
-import { Html, Head, Main, NextScript, DocumentProps } from 'next/document'
-import { FC } from 'react'
+import { Head, Html, Main, NextScript } from 'next/document.js'
 
-export const MyDocument: FC<DocumentProps> = () => {
+export default function Document() {
   return (
     <Html>
       <Head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
+        <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/icons/favicon.png"
         />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#d4d4d8" />
+        <meta name="description" content="Vladislav Yakovlev's website" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
+        <link rel="mask-icon" href="/icons/mask-icon.svg" color="#16a34a" />
         <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/icons/apple-touch-icon.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className="bg-zinc-300">
+      <body className="touch-pan-y bg-zinc-300 [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]">
         <Main />
         <NextScript />
       </body>
     </Html>
   )
 }
-
-export default MyDocument
