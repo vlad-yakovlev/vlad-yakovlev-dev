@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <title>Vladislav Yakovlev</title>
       </NextHead>
 
-      <div className="flex min-h-full flex-col items-center justify-between pb-[env(safe-area-inset-bottom)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] pt-[env(safe-area-inset-top)]">
+      <div className="flex min-h-full flex-col items-center justify-between">
         <div className="h-14" />
         <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl dark:bg-zinc-800 sm:flex-row">
           <div className="flex flex-none">
