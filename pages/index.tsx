@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       <div className="flex min-h-full flex-col items-center justify-between">
         <div className="h-14" />
-        <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl dark:bg-zinc-800 sm:flex-row">
+        <div className="flex flex-col items-center gap-x-10 gap-y-12 border-b-8 border-green-700 bg-white px-10 py-16 shadow-xl sm:flex-row dark:bg-zinc-800">
           <div className="flex flex-none">
             <NextImage
               className="rounded-full"
