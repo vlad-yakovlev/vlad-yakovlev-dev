@@ -14,8 +14,8 @@
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
-    "types": ["node", "next", "next/image-types/global"]
+    "types": ["node", "next", "next/image-types/global"],
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
 }
